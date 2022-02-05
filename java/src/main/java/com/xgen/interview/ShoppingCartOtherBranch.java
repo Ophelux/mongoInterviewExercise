@@ -41,7 +41,7 @@ public class ShoppingCartOtherBranch extends ShoppingCart{
         System.out.println("\nPrice - Item - Quantity\n");
     }
 
-    //Main methods to test the implementation and display
+    //Main method to test the implementation and display
     /*
     public static void main(String[] args){
         ShoppingCartOtherBranch sc = new ShoppingCartOtherBranch(new Pricer());

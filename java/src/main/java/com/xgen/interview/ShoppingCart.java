@@ -56,7 +56,7 @@ public class ShoppingCart implements IShoppingCart {
         System.out.println("\nItem - Quantity - Price\n");
     }
 
-    //Main methods to test the implementation and display
+    //Main method to test the implementation and display
     /*
     public static void main(String[] args){
         ShoppingCart sc = new ShoppingCart(new Pricer());
