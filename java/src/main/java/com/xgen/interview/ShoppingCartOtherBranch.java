@@ -1,14 +1,9 @@
 package com.xgen.interview;
 
 import java.lang.reflect.Array;
-import java.util.LinkedHashMap;
 
 /**
- * In some other branches, customers want to show the price forst on each line.
- *
- * We could have added a boolean to the method printReceipt() to check if yes or no we are in one of these branches
- * but it doesn't respect the Open-Closed Principle so I chose to create a new java class that extends ShoppingCart
- * and implement printReceipt() in a different way.
+ * New class to implement a different display of the receipt
  */
 public class ShoppingCartOtherBranch extends ShoppingCart{
 
@@ -36,7 +31,7 @@ public class ShoppingCartOtherBranch extends ShoppingCart{
         System.out.println("\n------ TOTAL : €"+total);
     }
 
-    /*
+
     public static void main(String[] args){
 
         ShoppingCartOtherBranch sc = new ShoppingCartOtherBranch(new Pricer());
@@ -44,5 +39,5 @@ public class ShoppingCartOtherBranch extends ShoppingCart{
         sc.addItem("banana", 1);
         sc.printReceipt();
     }
-     */
+
 }

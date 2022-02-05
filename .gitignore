@@ -1,6 +1,6 @@
 build
 .idea
-./.gradle
+java/.gradle
 __pycache__
 .vscode
-./gradlew
+java/gradlew.*
