@@ -46,12 +46,27 @@ public class ShoppingCart implements IShoppingCart {
         System.out.println("\n------ TOTAL : €"+total);
     }
 
+    /**
+     * Function to display the header of the receipt, not in the printReceipt() method
+     * since it's not necessary to print it on all receipts. Also, it simplifies the code of the tests.
+     */
+    public void printHeaderReceipt(){
+        System.out.println("------ Your receipt ------");
+        System.out.println("Thanks for shopping with us !");
+        System.out.println("\nItem - Quantity - Price\n");
+    }
+
+    //Main methods to test the implementation and display
     /*
     public static void main(String[] args){
         ShoppingCart sc = new ShoppingCart(new Pricer());
         sc.addItem("apple", 2);
-        sc.addItem("banana", 1);
+        sc.addItem("mango", 1);
+        sc.addItem("apple", 2);
+        sc.addItem("grapefruit", 1);
+        sc.printHeaderReceipt();
         sc.printReceipt();
     }
      */
+
 }
