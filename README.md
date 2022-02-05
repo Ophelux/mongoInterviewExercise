@@ -8,6 +8,6 @@ The main issue I encountered was in the writing of the tests, because the end-of
 ## The work I have done 
 - Added 'Total' line to the receipt. 
 - Make the receipt print items in the order that they were scanned by changing the Hashmap to a LinkedHashmap
-- In some other branches, customers want to show the price forst on each line.
+- In some other branches, customers want to show the price first on each line.
 We could have added a boolean to the method printReceipt() to check if yes or no we are in one of these branches but it doesn't respect the Open-Closed Principle so I chose to create a new java class that extends ShoppingCart and implement printReceipt() in a different way. This solution support the new feature and it allows future changes to be implemented without changing the current behavior of the application.
 - Update of the tests to match the new display and adding tests to check the new class behavior. 
