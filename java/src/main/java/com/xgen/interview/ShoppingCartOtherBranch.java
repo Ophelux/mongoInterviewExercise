@@ -32,12 +32,12 @@ public class ShoppingCartOtherBranch extends ShoppingCart{
     }
 
 
+    /*
     public static void main(String[] args){
-
         ShoppingCartOtherBranch sc = new ShoppingCartOtherBranch(new Pricer());
         sc.addItem("apple", 2);
         sc.addItem("banana", 1);
         sc.printReceipt();
-    }
+    }*/
 
 }

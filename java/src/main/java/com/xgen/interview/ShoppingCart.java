@@ -53,6 +53,5 @@ public class ShoppingCart implements IShoppingCart {
         sc.addItem("banana", 1);
         sc.printReceipt();
     }
-
      */
 }
